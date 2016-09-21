@@ -52,7 +52,7 @@
                                      // Font size
                                      13,
                                      // Line space
-                                     10,
+                                     0,
                                      // Foreground color
                                      0xff000000);
     
