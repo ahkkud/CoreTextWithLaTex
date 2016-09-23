@@ -16,11 +16,14 @@
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet CTDisplayView *ctView;
+//@property (weak, nonatomic) IBOutlet CTDisplayView *ctView;
+@property (nonatomic,strong) CTDisplayView *ctView;
 
 @end
 
 @implementation ViewController
+
+
 
 - (void)viewDidLoad
 {
@@ -30,7 +33,12 @@
 }
 
 - (void)setupUserInterface {
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     CTFrameParserConfig *config = [[CTFrameParserConfig alloc] init];
+    self.ctView = [[CTDisplayView alloc]initWithFrame:self.view.bounds];
+    self.ctView.y = 64;
+    [self.view addSubview:self.ctView];
     config.width = self.ctView.width;
     NSString *path = [[NSBundle mainBundle] pathForResource:@"content" ofType:@"json"];
     CoreTextData *data = [CTFrameParser parseTemplateFile:path config:config];

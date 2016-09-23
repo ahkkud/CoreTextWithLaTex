@@ -148,6 +148,7 @@
 		4104F1B51D76BAAF006AFB47 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4104F1281D76BAAF006AFB47 /* tinyxml2.cpp */; };
 		4104F1B81D76BAFA006AFB47 /* rectView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4104F1B71D76BAFA006AFB47 /* rectView.mm */; };
 		4104F1BB1D76CB6B006AFB47 /* CTDisplayView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4104F1BA1D76CB6B006AFB47 /* CTDisplayView.mm */; };
+		41C9AEB41D92847800E16B47 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9AEB31D92847800E16B47 /* RootViewController.m */; };
 		45099CD4186689E300B849E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45099CD3186689E300B849E6 /* ViewController.m */; };
 		45099CD81866912F00B849E6 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45099CD61866912F00B849E6 /* ImageViewController.m */; };
 		45099CD91866912F00B849E6 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45099CD71866912F00B849E6 /* ImageViewController.xib */; };
@@ -354,6 +355,8 @@
 		4104F1B71D76BAFA006AFB47 /* rectView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = rectView.mm; sourceTree = "<group>"; };
 		4104F1B91D76CB6B006AFB47 /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
 		4104F1BA1D76CB6B006AFB47 /* CTDisplayView.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = CTDisplayView.mm; sourceTree = "<group>"; };
+		41C9AEB21D92847800E16B47 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		41C9AEB31D92847800E16B47 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		45099CD2186689E300B849E6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		45099CD3186689E300B849E6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45099CD51866912F00B849E6 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -738,6 +741,8 @@
 				45DFED301866C5430068E2BE /* WebContentViewController.h */,
 				45DFED311866C5430068E2BE /* WebContentViewController.m */,
 				45DFED321866C5430068E2BE /* WebContentViewController.xib */,
+				41C9AEB21D92847800E16B47 /* RootViewController.h */,
+				41C9AEB31D92847800E16B47 /* RootViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1111,6 +1116,7 @@
 				452F1BCF1852CD1B0071F13B /* CTFrameParser.m in Sources */,
 				4104F1331D76BAAF006AFB47 /* macro_def.cpp in Sources */,
 				45DFED331866C5430068E2BE /* WebContentViewController.m in Sources */,
+				41C9AEB41D92847800E16B47 /* RootViewController.m in Sources */,
 				4104F1301D76BAAF006AFB47 /* formula.cpp in Sources */,
 				4104F1B81D76BAFA006AFB47 /* rectView.mm in Sources */,
 				4104F12B1D76BAAF006AFB47 /* _tester.cpp in Sources */,
