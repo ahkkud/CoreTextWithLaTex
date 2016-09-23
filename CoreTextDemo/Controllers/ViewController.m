@@ -33,8 +33,11 @@
 }
 
 - (void)setupUserInterface {
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     CTFrameParserConfig *config = [[CTFrameParserConfig alloc] init];
     self.ctView = [[CTDisplayView alloc]initWithFrame:self.view.bounds];
+    self.ctView.y = 64;
     [self.view addSubview:self.ctView];
     config.width = self.ctView.width;
     NSString *path = [[NSBundle mainBundle] pathForResource:@"content" ofType:@"json"];
