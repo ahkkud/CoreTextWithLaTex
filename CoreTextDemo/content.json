@@ -1,17 +1,27 @@
-[ { 
+ [ { "color" : "black",
+  "content" : "反比例函数的意义\n",
+  "size" : 16,
+  "type" : "txt"
+  },
+  { "color" : "default",
+  "content" : "一般的，形如",
+  "size" : 14,
+  "type" : "txt"
+  },
+  {
     "type" : "img",
-    "width" : 185,
-    "height" : 18,
+    "width" : 182,
+    "height" : 14,
     "name" : "coretext-image-1.jpg"
   },
-  { "color" : "blue",
-    "content" : "文本文本文本文本文本文本文本",
-    "size" : 18,
+  { "color" : "default",
+    "content" : "(k为常数，k!=0)的函数，叫做反比例函数，其中x是自变量，y是函数.自变量x的取值范围是不等于0的一切实数.例如：",
+    "size" : 14,
     "type" : "txt"
   },
-  { "color" : "red",
+  { "color" : "default",
     "content" : "内容、颜色、字体",
-    "size" : 22,
+    "size" : 14,
     "type" : "txt"
   },
   { "color" : "black",
