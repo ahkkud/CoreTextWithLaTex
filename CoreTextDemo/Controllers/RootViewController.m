@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.dataArray = @[@"VC1",@"VC2",@"VC3",@"VC4",@"VC5"];
+    self.dataArray = @[@"公式＋文本",@"VC2",@"VC3",@"VC4",@"VC5"];
     self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.y = 64;
     [self.view addSubview:_tableView];
